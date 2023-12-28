@@ -1,0 +1,58 @@
+html{
+  background-image: url(./image/triangle-2724449_1280.png);
+    
+}
+.index{
+  width: 700px;
+  margin: 0 auto;
+  background-color: gray;
+  padding: 0 30px 30px 30px;
+  border: 7px solid black;
+}
+img{   
+  width: 400px;
+  margin-left: 21.5%;  
+  margin-right: 35%; 
+}
+button{
+  margin-top: 3px;
+  margin-left: 39%;
+  margin-right: 35%;
+  font-family: monospace;
+  font-size: x-large;
+  transition-duration: 0.2s;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: greenyellow; 
+  color: black; 
+  border: 2px solid green;
+  cursor: pointer; 
+}
+Button:hover{
+  transform: scale(1.1);
+  border-radius: 14px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  color: black;
+  background-color: white;
+}
+h1{
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: black;
+  background-size: auto;
+  color: red;
+}
+p{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
+  text-align: justify;
+}
+@media only screen and (max-width: 480px) {
+.no-mobile {
+    display: none;
+  }
+
+.mobile-only {
+    display: block;
+  }
+}
